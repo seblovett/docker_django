@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  {% load static %}
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="{% static 'home/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="{% static 'home/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="deep-purple darken-4" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="../admin">Admin</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="../admin">Admin</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center deep-purple-text darken-4">Template</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">A collection of useful links</h5>
+      </div>
+      <div class="row">
+
+        <div class="col s4">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="{% static 'home/images/gitea.png' %}">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>Internal source control.</p>
+              </div>
+              <div class="card-action">
+                <a href="http://192.168.0.99:8000">Go to Git Tea</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s4">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="{% static 'home/images/op.png' %}">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>Issue Tracking.</p>
+              </div>
+              <div class="card-action">
+                <a href="http://192.168.0.99:8000">Go to Open Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s4">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="{% static 'home/images/synology.png' %}">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>Synology</p>
+              </div>
+              <div class="card-action">
+                <a href="http://192.168.0.99:8000">Go to Synology</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s4">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="{% static 'home/images/indabom.png' %}">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>BoM</p>
+              </div>
+              <div class="card-action">
+                <a href="http://192.168.0.99:8000">Go to BoM</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col s4">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="{% static 'home/images/gmail.png' %}">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>BoM</p>
+              </div>
+              <div class="card-action">
+                <a href="https://mail.google.com">Go to Mail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s4">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="{% static 'home/images/calendar.png' %}">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>BoM</p>
+              </div>
+              <div class="card-action">
+                <a href="https://calendar.google.com">Go to Calendar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  
+  <footer class="page-footer deep-purple darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12">
+          <h5 class="white-text">Information</h5>
+          <p class="grey-text text-lighten-4">This is where we can put some extra information</p>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

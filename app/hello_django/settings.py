@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'djmoney', # for currency
     'djmoney.contrib.exchange', # for currency
     'materializecssform',
+    'home',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
